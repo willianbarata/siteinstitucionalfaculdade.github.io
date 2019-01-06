@@ -1,0 +1,55 @@
+<form id="aluno" method="get" name="aluno" action="aluno.html">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Número R.A.</label>
+                    <input name="ra" required="true" id="ra" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Número R.A.">
+                    <small id="emailHelp" class="form-text text-muted">Número contém 8 dígitos, caso não possua entre em contado com a secretaria.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Senha</label>
+                    <input type="password" required="true" class="form-control" id="senha" name="senha" placeholder="Senha">
+                  </div>
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Gravar</label>
+                  </div>
+                  <button onclick="acessar()" type="submit" class="btn btn-primary">Entrar</button>
+                 <nav class="up"><a href="#cabecalho"><button type="button" class="btn btn-outline-info">up</button></a> </nav>  
+            </form>
+
+
+
+Preço Compra - - - - - - - - - - - R$2,00
+Preço  Venda - - - - - - - - - - - - - R$3,00
+Quantidade - - - - - - - - - - - - - - - - - - - - - 85 unit
+
+#adicionar{
+        background-color: green;
+        left: 80%;
+    }
+    #editar {
+        background-color: darkorange;
+    }
+    #add {
+        background-color: green;
+    }
+    .trash1 {
+        margin-left: 90px;
+        width: 18%;
+        }
+
+    .create1 {
+        margin-right: 10px;
+        width: 18%;
+    }
+    .botoes {
+  
+    }
+
+ <button class="trash1" color="danger" ion-button icon-only>
+          <ion-icon name="trash"></ion-icon>
+        </button>
+        <button class="create1" ion-button id="editar" icon-only>
+          <ion-icon name="create"></ion-icon>
+
+<button onclick="alert('Deseja realmente cadastrar?')" id="adicionar" ion-fab mini>
+    <ion-icon name="add"></ion-icon>

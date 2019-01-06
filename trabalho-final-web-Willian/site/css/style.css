@@ -1,0 +1,68 @@
+.redes {
+          
+           position: absolute;
+           right: 40px;
+        }
+        .up {
+            position: absolute;
+            right:300px; 
+        }
+    
+        #coralunos {
+            background-color: #99e4ba;
+        }
+        #coratendimento {
+            background-color: #99e4ba;
+        }
+        #coreventos {
+            background-color: azure;
+        }
+        #corvestibular {
+            background-color: azure;
+        }
+        #corfooter {
+            background-color: #99e4ba;
+        }
+        #loc {
+            text-align: center;
+            font-size: 
+        }
+        .jumbotron {
+            margin-bottom: auto;
+        }
+        .card {
+            background-color: 36935e;
+        }
+        #adm {
+            height: 400px;
+            width: 600px;
+        }
+        #eng {
+            height: 400px;
+            width: 600px;
+        }
+        #odonto {
+            height: 400px;
+            width: 600px;
+        }
+        .bg-light {
+            
+        }
+    
+        .to-top{
+                    display: none;
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                    background: #327d81;
+                    color: #fff;
+                    padding: 9px 12px;
+                    border-radius: 50%;
+                    
+                }
+                .to-top:hover {
+                    background: #d7d7d7;
+                    color: #000;
+                }
+
+       
